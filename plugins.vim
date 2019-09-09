@@ -11,6 +11,9 @@ Plug 'itchyny/lightline.vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'Shougo/vimproc.vim', {'do': 'make'}
 Plug 'Shougo/vimshell.vim'
+Plug 'Shougo/neocomplete.vim'
+Plug 'docunext/closetag.vim'
+Plug 'w0rp/ale'
 
 call plug#end()
 
@@ -29,6 +32,9 @@ let NERDTreeShowHidden = 1
 " NERDTree起動
 autocmd VimEnter * execute 'NERDTree'
 
+" neocomplete起動
+let g:neocomplete#enable_at_startup = 1
+
 " eでタブ作成
 " let g:airline#extensions#tabline#enabled = 1
 
@@ -38,3 +44,7 @@ autocmd VimEnter * execute 'NERDTree'
 let g:lightline = {
   \ 'colorscheme': 'seoul256',
   \ }
+
+" エラー時はX, 警告時は!を表示
+let g:ale_sign_error = 'X'
+let g:ale_sign_warning = '!'
