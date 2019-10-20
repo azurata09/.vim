@@ -13,6 +13,9 @@ Plug 'docunext/closetag.vim'
 Plug 'w0rp/ale'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
+Plug 'itchyny/calender.vim'
+Plug 'ervandew/supertab'
+Plug 'sheerun/vim-polyglot'
 
 call plug#end()
 
