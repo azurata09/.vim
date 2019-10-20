@@ -7,10 +7,7 @@ Plug 'w0ng/vim-hybrid'
 Plug 'simeji/winresizer'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-" Plug 'itchyny/lightline.vim'
 Plug 'ryanoasis/vim-devicons'
-Plug 'Shougo/vimproc.vim', {'do': 'make'}
-Plug 'Shougo/vimshell.vim'
 Plug 'Shougo/neocomplete.vim'
 Plug 'docunext/closetag.vim'
 Plug 'w0rp/ale'
@@ -43,10 +40,6 @@ let g:neocomplete#enable_at_startup = 1
 " 下部テーマ
 let g:airline_powerline_fonts = 1
 let g:airline_theme='papercolor'
-
-" let g:lightline = {
-"   \ 'colorscheme': 'seoul256',
-"   \ }
 
 " エラー時はX, 警告時は!を表示
 let g:ale_sign_error = 'X'
