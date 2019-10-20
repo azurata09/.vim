@@ -34,9 +34,6 @@ autocmd VimEnter * execute 'NERDTree'
 " neocomplete起動
 let g:neocomplete#enable_at_startup = 1
 
-" eでタブ作成
-" let g:airline#extensions#tabline#enabled = 1
-
 " 下部テーマ
 let g:airline_powerline_fonts = 1
 let g:airline_theme='papercolor'
