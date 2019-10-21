@@ -48,3 +48,26 @@ let g:ale_sign_warning = '!'
 
 " calendar.vimをGoogleカレンダーと連携
 let g:calendar_google_calendar = 1
+
+" タブを有効化
+let g:airline#extensions#tabline#enabled = 1
+
+" Ctrl+Tabでタブを移動
+nmap <C-Tab> <Plug>AirlineSelectNextTab
+
+" タブに番号を振る
+let g:airline#extensions#tabline#buffer_idx_mode = 1
+
+" タブの番号を大きく表示
+let g:airline#extensions#tabline#buffer_idx_format = {
+	\ '0': '0 ',
+	\ '1': '1 ',
+	\ '2': '2 ',
+	\ '3': '3 ',
+	\ '4': '4 ',
+	\ '5': '5 ',
+	\ '6': '6 ',
+	\ '7': '7 ',
+	\ '8': '8 ',
+	\ '9': '9 '
+	\}
