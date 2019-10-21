@@ -174,6 +174,11 @@ augroup END
 "   autocmd Filetype html inoremap <buffer> </ </<C-x><C-o>
 " augroup END
 
+" 括弧の補完
+inoremap {<Enter> {}<Left>
+inoremap (<Enter> ()<Left>
+inoremap [<Enter> []<Left>
+
 " 編集箇所のカーソルを記憶
 if has("autocmd")
   augroup redhat
