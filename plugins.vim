@@ -16,6 +16,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'itchyny/calendar.vim'
 Plug 'ervandew/supertab'
 Plug 'sheerun/vim-polyglot'
+Plug 'cohama/lexima.vim'
 
 call plug#end()
 
