@@ -17,6 +17,8 @@ Plug 'itchyny/calendar.vim'
 Plug 'ervandew/supertab'
 Plug 'sheerun/vim-polyglot'
 Plug 'cohama/lexima.vim'
+Plug 'tomasr/molokai'
+Plug 'jacoborus/tender.vim'
 
 call plug#end()
 
