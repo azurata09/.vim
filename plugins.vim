@@ -19,6 +19,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'cohama/lexima.vim'
 Plug 'tomasr/molokai'
 Plug 'jacoborus/tender.vim'
+Plug 'twitvim/twitvim'
 
 call plug#end()
 
@@ -40,7 +41,7 @@ autocmd VimEnter * execute 'NERDTree'
 " neocomplete起動
 let g:neocomplete#enable_at_startup = 1
 
-" 下部テーマ
+ " 下部テーマ
 let g:airline_powerline_fonts = 1
 let g:airline_theme='papercolor'
 
