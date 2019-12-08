@@ -63,7 +63,7 @@ let g:airline#extensions#tabline#buffer_idx_mode = 1
 
 " タブの番号を大きく表示
 let g:airline#extensions#tabline#buffer_idx_format = {
-	\ '0': '0 ',
+  \ '0': '0 ',
 	\ '1': '1 ',
 	\ '2': '2 ',
 	\ '3': '3 ',
@@ -74,6 +74,9 @@ let g:airline#extensions#tabline#buffer_idx_format = {
 	\ '8': '8 ',
 	\ '9': '9 '
 	\}
+
+let g:airline#extensions#hunks#enabled = 0
+let g:airline_section_z = airline#section#create(['%l',':','%v'])
 
 let g:ale_linters = {
 \   'cpp': ['cpplint'],
