@@ -20,6 +20,7 @@ Plug 'cohama/lexima.vim'
 Plug 'tomasr/molokai'
 Plug 'jacoborus/tender.vim'
 Plug 'twitvim/twitvim'
+Plug 'luochen1990/rainbow'
 
 call plug#end()
 
@@ -77,6 +78,8 @@ let g:airline#extensions#tabline#buffer_idx_format = {
 
 let g:airline#extensions#hunks#enabled = 0
 let g:airline_section_z = airline#section#create(['%l',':','%v'])
+
+let g:rainbow_active = 1
 
 let g:ale_linters = {
 \   'cpp': ['cpplint'],
