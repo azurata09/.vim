@@ -21,6 +21,7 @@ Plug 'tomasr/molokai'
 Plug 'jacoborus/tender.vim'
 Plug 'twitvim/twitvim'
 Plug 'luochen1990/rainbow'
+Plug 'editorconfig/editorconfig-vim'
 
 call plug#end()
 
