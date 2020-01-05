@@ -69,8 +69,6 @@ set fileformats=unix,dos,mac
 " エラー時のビープ音を無効化
 set noerrorbells
 
-" パス区切りを/に変更
-set shellslash
 
 " 対応するカッコやブレースを表示
 set showmatch matchtime=1
