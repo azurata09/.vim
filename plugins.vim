@@ -81,34 +81,3 @@ let g:airline#extensions#hunks#enabled = 0
 let g:airline_section_z = airline#section#create(['%l',':','%v'])
 
 let g:rainbow_active = 1
-
-let g:ale_linters = {
-\   'cpp': ['cpplint'],
-\   'SQL':['write-good'],
-\   'Text':['write-good', 'redpen'],
-\   'cmake':['cmakelint'],
-\   'fish':['fish -n flag'],
-\   'LaTeX':['redpen', 'write-good', 'textlint'],
-\   'markdown':['markdownlint', 'prettier', 'redpen', 'write-good'],
-\   'python': ['pylint'],
-\   'rust':['rustfmt'],
-\   'vim':['vint'],
-\ }
-
-let g:ale_fixers = {
-\   'bash':['language-server', 'shellcheck', 'trim_whitespace'],
-\   'Dockerfile':['hadolint', 'remove_trailing_lines', 'trim_whitespace'],
-\   'R':['styler', 'litr', 'remove_trailing_lines', 'trim_whitespace'],
-\   'cpp': ['cppcheck', 'trim_whitespace'],
-\   'fish':['fish -n flag', 'trim_whitespace'],
-\   'go':['gofmt', 'goimports'],
-\   'JavaScript':['eslint', 'prettier'],
-\   'markdown': ['prettier'],
-\   'python': ['add_blank_lines_for_python_control_statements', 'autopep8', 'mypy','reorder-python-imports', 'remove_trailing_lines', 'trim_whitespace'],
-\   'rust':['rustfmt', 'remove_trailing_lines', 'trim_whitespace'],
-\   'sh': ['spellcheck', 'shfmt', 'remove_trailing_lines', 'trim_whitespace'],
-\   'sql': ['sqlfmt', 'sqlint', 'pgformatter'],
-\   'vim': ['remove_trailing_lines', 'trim_whitespace'],
-\   'XML': ['xmllint', 'trim_whitespace'],
-\   'YAML':['yamllint', 'prettier'],
-\ }
