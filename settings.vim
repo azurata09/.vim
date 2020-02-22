@@ -165,13 +165,6 @@ augroup auto_comment_off
   autocmd BufEnter * setlocal formatoptions-=o
 augroup END
 
-" HTML/XML閉じタグ自動補完
-" augroup MyXML
-"   autocmd!
-"   autocmd Filetype xml inoremap <buffer> </ </<C-x><C-o>
-"   autocmd Filetype html inoremap <buffer> </ </<C-x><C-o>
-" augroup END
-
 " 編集箇所のカーソルを記憶
 if has("autocmd")
   augroup redhat
@@ -186,13 +179,3 @@ if has("autocmd")
 endif
 
 set helplang=ja,en
-
-" nyaovim用
-
-" workaround for nyaovim's weird argv issue
-if exists('g:nyaovim_version')
-" delete first arg
-	execute '1argd'
-" close current buffer
-	execute 'bd'
-endif
